@@ -1,0 +1,14 @@
+{
+    "builds": [
+      {
+        "src": "package.json",
+        "use": "@vercel/node"
+      }
+    ],
+    "build": {
+      "env": {
+        "ROLLUP_PLUGIN_COMMONJS_BYPASS": "true"
+      }
+    }
+  }
+  
